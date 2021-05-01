@@ -7,6 +7,7 @@
     import Page from '~/components/layout/page.svelte'
 
     import Login from '~/pages/login.svelte'
+    import Earn from '~/pages/earn/index.svelte'
     import Request from '~/pages/request/index.svelte'
     import TransferSelect from '~/pages/transfer/select.svelte'
     import Transfer from '~/pages/transfer/index.svelte'
@@ -116,6 +117,9 @@
         <Route>
             <Route path="/">
                 <Tokens />
+            </Route>
+            <Route path="/earn">
+                <Earn />
             </Route>
             <Route path="/transfer">
                 <TransferSelect />

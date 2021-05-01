@@ -26,6 +26,11 @@
 
     const advancedNavigation: NavigationItem[] = [
         {
+            icon: 'percent',
+            name: 'Earn',
+            path: '/earn',
+        },
+        {
             icon: 'battery-charging',
             name: 'Resources',
             path: '/resources',
